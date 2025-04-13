@@ -6,9 +6,12 @@ Clone the repository to your local machine using `git`:
 
 ```bash
 git clone https://github.com/Yashwanthreddyk2199/receiptProcessor.git
+```
+Navigate to Cloned Directory 
+
+```bash 
 cd receiptProcessor
 ```
-
 ## Step 2: Build the Docker Image
 
 Build the Docker image from the `Dockerfile` in the repository:
@@ -22,7 +25,7 @@ docker build -t receipt-processor .
 Run the Docker container from the image you just built:
 
 ```bash
-docker run -d -p 8000:8000 receipt-processor
+docker run -p 8000:8000 receipt-processor
 ```
 
 Now, the server should be running at `http://localhost:8000`.
