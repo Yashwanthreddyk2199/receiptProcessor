@@ -5,8 +5,8 @@
 Clone the repository to your local machine using `git`:
 
 ```bash
-git clone https://github.com/yashwanthreddyk2199/your-repository.git
-cd RECEIPTPROCESSOR
+git clone https://github.com/Yashwanthreddyk2199/receiptProcessor.git
+cd receiptProcessor
 ```
 
 ## Step 2: Build the Docker Image
